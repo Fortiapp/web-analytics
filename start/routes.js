@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 
 /*
 |--------------------------------------------------------------------------
@@ -13,6 +13,7 @@
 |
 */
 
-const Route = use('Route')
+const Route = use('Route');
 
-Route.on('/').render('welcome')
+Route.get('/', 'PostController.show');
+Route.on('home').render('welcome').as('home');
