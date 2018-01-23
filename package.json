@@ -5,7 +5,7 @@
   "description": "The fullstack application boilerplate for Adonisjs",
   "main": "index.js",
   "scripts": {
-    "start": "adonis serve --dev --debug",
+    "start": "adonis serve",
     "test": "node ace test"
   },
   "keywords": [
@@ -19,6 +19,7 @@
     "@adonisjs/ace": "^4.0.7",
     "@adonisjs/auth": "^2.0.10",
     "@adonisjs/bodyparser": "^2.0.0",
+    "@adonisjs/cli": "^3.0.17",
     "@adonisjs/cors": "^1.0.3",
     "@adonisjs/fold": "^4.0.5",
     "@adonisjs/framework": "^4.0.28",
